@@ -8,4 +8,4 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
 include_directories(.)
 
 
-add_executable(CppBrainFuck main.cpp state.cpp util.cpp)
+add_executable(BrainFuck interpreter.cpp state.cpp util.cpp)

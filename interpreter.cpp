@@ -11,7 +11,7 @@ char input_[MACHINE_LEGTH];
 
 int main(int argc, char ** argv) {
   if (argc < 2) {
-    puts("usage \n ./CppBrainFuck `xxxx`.bf");
+    puts("usage \n ./BrainFuck `xxxx`.bf");
     return 0;
   }
   int len = ReadInput(argv[1], input_);
